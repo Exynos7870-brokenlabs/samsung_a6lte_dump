@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-A600FN</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>CKH</MultiCode>
+    <CustomerDataSet>
+        <CSCName>A600FNCKH</CSCName>
+        <CSCVersion>5BTC1</CSCVersion>
+        <NbCustomer>3</NbCustomer>
+        <CustomerData src="/Customer/H3G/customer.xml" />
+        <CustomerData src="/Customer/DRE/customer.xml" />
+        <CustomerData src="/Customer/HUI/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>DRE</CustomerCode>
+            <Version>SAOMC_SM-A600FN_CKH_DRE_PP_0017</Version>
+            <CustomerEdition>ED0006</CustomerEdition>
+            <Packages>
+                <package name="at.marionnaud.customer" />
+                <package name="com.hutchison3g.at.newsflash" />
+                <package name="com.amazon.mShop.android.shopping" />
+                <package name="com.nousguide.android.puls4" />
+                <package name="com.hutchison3g.at.kiosk" />
+                <package name="com.amazon.avod.thirdpartyclient" />
+                <package name="com.hutchison3g.at.android.selfcare" />
+                <package name="com.hutchison3g.at.android.p3launcher" />
+                <package name="at.drei.cloud" />
+                <package name="com.drei.tv" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>H3G</CustomerCode>
+            <Version>SAOMC_SM-A600FN_CKH_H3G_PP_0017</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+            <Packages>
+                <package name="com.hutchison3g.wuntu" />
+                <package name="com.amazon.appmanager" />
+                <package name="com.amazon.mShop.android.shopping" />
+                <package name="com.ebay.mobile" />
+                <package name="com.hutchison3g.planet3" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>HUI</CustomerCode>
+            <Version>SAOMC_SM-A600FN_CKH_HUI_PP_0018</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.ebay.mobile" />
+                <package name="com.amazon.avod.thirdpartyclient" />
+                <package name="com.amazon.mShop.android.shopping" />
+                <package name="com.amazon.appmanager" />
+                <package name="com.mgmedia.androidApp" />
+            </Packages>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-A600FN_CKH_H3G_PP_0017</version>
+  <model>
+    <name>SM-A600FN</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0005</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>3</carrierCount>
+    <carrier>
+      <mcc>001</mcc>
+      <mnc>01</mnc>
+      <networkName>3</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>20</mnc>
+      <networkName>3</networkName>
+    </carrier>
+    <carrier>
+      <mcc>235</mcc>
+      <mnc>94</mnc>
+      <networkName>3</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>
